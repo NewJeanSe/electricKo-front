@@ -1,4 +1,4 @@
-<img width="164" alt="image" src="https://github.com/user-attachments/assets/dadc613e-b6e9-4a44-bac5-23d56a66f9a0">https://boatneck-fuel-f38.notion.site/Next-js-5ed86664bcd449d6ad1b63a959497f65?pvs=4
+https://boatneck-fuel-f38.notion.site/Next-js-5ed86664bcd449d6ad1b63a959497f65?pvs=4
 -> 여기서 **Next.js 프로젝트 생성, Next.js 폴더 구조 분석, Next.js 실무 레벨 개발 환경 설정** 읽으면서 설정하셈
 
 그 다음 terminal에서 npm run dev 하면 라이브 서버가 켜짐, 그 상태에서 CSS 파일 고쳐보면 디자인 바뀌는 거 보임
