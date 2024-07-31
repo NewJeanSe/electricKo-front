@@ -1,3 +1,9 @@
+**이거 파일 가져오는 법**
+1. C 드라이브 밑에 작업 폴더 만들기
+2. 거기서 git bash open 한 후
+3. terminal에 git clone https://github.com/NewJeanSe/electricKo-front.git 입력하면 코드랑 파일 다 다운로드 됨
+4. 이제 밑에 notion 들어가서 환경 설정해줘야 코드가 돌아감
+
 https://boatneck-fuel-f38.notion.site/Next-js-5ed86664bcd449d6ad1b63a959497f65?pvs=4
 -> 여기서 **Next.js 프로젝트 생성, Next.js 폴더 구조 분석, Next.js 실무 레벨 개발 환경 설정** 읽으면서 설정하셈
 
@@ -22,8 +28,3 @@ https://www.figma.com/design/klLisLbGxrirtrOfD4NEkU/New-JeanSe_%EC%9E%91%EC%97%8
 
 하면서 아마 .tsx 파일들 안에 들어가는 className 고치고 그럴 수 도 있긴 한데, 로직은 건드리지 마(ex) 페이지 이동 경로 등)
 필요한 거 있으면 물어보셈
-
-이거 파일 가져오는 법
-1. C 드라이브 밑에 작업 폴더 만들기
-2. 거기서 git bash open 한 후
-3. terminal에 git clone 
