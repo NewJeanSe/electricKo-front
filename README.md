@@ -7,13 +7,17 @@ https://www.figma.com/design/klLisLbGxrirtrOfD4NEkU/New-JeanSe_%EC%9E%91%EC%97%8
 -> CSS 고치는 거 이 웹디자인 해놓은거 보면서 고쳐보셈, 혼자서 머리 싸매면서 하는 거 보다 GPT 쓰면서 하는게 훨씬 빠름
 
 <img width="164" alt="image" src="https://github.com/user-attachments/assets/bb580e38-600c-4c13-9c15-47c2a11c780b">
+
 <img width="166" alt="image" src="https://github.com/user-attachments/assets/4b6f8a9c-f21f-4c3d-b2d6-cfe9ebbcba94">
+
 확장자 .css 인 파일들만 건드리면 될 거임 아마.
 
 <img width="164" alt="image" src="https://github.com/user-attachments/assets/6c4d1307-6472-48c6-8bd4-8ff31b2c230f">
+
 밑줄 친 2개만 일단 해봐
 
 <img width="197" alt="image" src="https://github.com/user-attachments/assets/b0a7ec7b-3172-4e08-9460-69fec210d8b7">
+
 -> 이미지 들어가는 곳
 
 하면서 아마 코드에 들어가는 className 고치고 그럴 수 도 있음, 필요한 거 있으면 물어보셈
