@@ -1,4 +1,5 @@
 import UserWithdrawalModal from '@/components/modal/userWithdrawalModal';
+import UserWithdrawalThanksModal from '@/components/modal/userWithdrawalThanksModal'; // 추가
 import Head from 'next/head';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
@@ -8,6 +9,7 @@ import { useState } from 'react';
 const HomePage = () => {
 	const router = useRouter();
 	const [isModalOpen, setIsModalOpen] = useState(false);
+	const [isThanksModalOpen, setIsThanksModalOpen] = useState(false);
 
 	const redirectToLogin = () => {
 		router.push('/login');
@@ -19,6 +21,20 @@ const HomePage = () => {
 
 	const closeModal = () => {
 		setIsModalOpen(false);
+	};
+
+	const openThanksModal = () => {
+		setIsModalOpen(false);
+		setIsThanksModalOpen(true);
+	};
+
+	const closeThanksModal = () => {
+		setIsThanksModalOpen(false);
+		redirectToHome();
+	};
+
+	const redirectToHome = () => {
+		router.push('/');
 	};
 
 	return (
@@ -107,10 +123,12 @@ const HomePage = () => {
 						<div className="statelayer">
 							<button className="logo-button" onClick={redirectToLogin}>
 								<div className="logo-container">
-									<img
+									<Image
 										src="/images/img_contrast.svg"
 										alt="로고"
 										className="logo"
+										width={44}
+										height={44}
 									/>
 									<p className="class-___ ui text size-textmd">
 										나만의 데이터 찾으러 가기
@@ -314,7 +332,6 @@ const HomePage = () => {
 								<div className="tab1ofthree_one"></div>
 								<div className="tab1ofthree_one"></div>
 								<div className="tab1ofthree_one"></div>
-								<div className="tab1ofthree_one"></div>
 							</div>
 						</div>
 						<div className="previewbutton">
@@ -356,6 +373,7 @@ const HomePage = () => {
 									<UserWithdrawalModal
 										closeModal={closeModal}
 										isOpen={isModalOpen}
+										onConfirm={openThanksModal} // 추가
 									/>
 								)}
 							</div>
@@ -393,8 +411,11 @@ const HomePage = () => {
 					</div>
 				</div>
 			</div>
-			{isModalOpen && (
-				<UserWithdrawalModal closeModal={closeModal} isOpen={isModalOpen} />
+			{isThanksModalOpen && (
+				<UserWithdrawalThanksModal
+					isOpen={isThanksModalOpen}
+					onClose={closeThanksModal}
+				/>
 			)}
 		</div>
 	);

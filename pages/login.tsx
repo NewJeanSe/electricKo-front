@@ -30,7 +30,7 @@ const LoginPage = () => {
 				<div className={styles.columncontrast}>
 					<div className={styles.rowcontrastOne}>
 						<img
-							src="/images/img_contrast.svg"
+							src="/images/img_contrast_login.svg"
 							alt="Contrast"
 							className={styles.contrastOne}
 						/>
