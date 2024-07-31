@@ -14,10 +14,16 @@ https://www.figma.com/design/klLisLbGxrirtrOfD4NEkU/New-JeanSe_%EC%9E%91%EC%97%8
 
 <img width="164" alt="image" src="https://github.com/user-attachments/assets/6c4d1307-6472-48c6-8bd4-8ff31b2c230f">
 
-밑줄 친 2개만 일단 해봐
+밑줄 친 2개에 해당하는 페이지만 디자인 해보자
 
 <img width="197" alt="image" src="https://github.com/user-attachments/assets/b0a7ec7b-3172-4e08-9460-69fec210d8b7">
 
 -> 이미지 들어가는 곳
 
-하면서 아마 코드에 들어가는 className 고치고 그럴 수 도 있음, 필요한 거 있으면 물어보셈
+하면서 아마 .tsx 파일들 안에 들어가는 className 고치고 그럴 수 도 있긴 한데, 로직은 건드리지 마(ex) 페이지 이동 경로 등)
+필요한 거 있으면 물어보셈
+
+이거 파일 가져오는 법
+1. C 드라이브 밑에 작업 폴더 만들기
+2. 거기서 git bash open 한 후
+3. terminal에 git clone 
